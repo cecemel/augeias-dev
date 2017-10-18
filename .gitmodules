@@ -1,0 +1,3 @@
+[submodule "augeias"]
+	path = augeias
+	url = https://github.com/OnroerendErfgoed/augeias.git

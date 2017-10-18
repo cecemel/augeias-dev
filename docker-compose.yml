@@ -1,0 +1,11 @@
+version: "2"
+services:
+  augeias:
+    image: augeias-dev/augeias:latest
+    ports:
+      - "6544:6544"
+    volumes:
+      - ./data/augeias:/root/data/cheeses/data
+      - ./augeias:/app
+      - ./augeias/augeias:/app/augeias
+      - ./augeias/tests:/app/tests
